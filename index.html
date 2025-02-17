@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clothencio – Модная одежда из Узбекистана</title>
+    <meta
+      name="description"
+      content="Магазин Clothencio предлагает стильную одежду из Узбекистана: популярные товары, новинки, качественные модели по доступным ценам."
+    />
+    <meta
+      name="keywords"
+      content="одежда, Узбекистан, купить одежду, мода, стиль, Clothencio"
+    />
+    <link rel="icon" href="images/favicon/favicon.webp" type="image/webp" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="container header-container">
+        <a href="#hero" class="logo"> Clothencio </a>
+        <!-- Навигационное меню -->
+        <nav class="nav" id="nav-menu">
+          <ul>
+            <li><a href="#hero">Главная</a></li>
+            <li><a href="#popular">Популярные товары</a></li>
+            <li><a href="#new">Новинки</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </nav>
+        <!-- Дополнительные элементы в шапке -->
+        <div class="header-extra">
+          <a href="tel:+998901234567" class="phone">+998 90 123-45-67</a>
+        </div>
+        <!-- Кнопка гамбургера для мобильных устройств -->
+        <button id="hamburger" aria-label="Открыть меню">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <!-- Можно реализовать слайдер с несколькими изображениями -->
+      <div class="hero-slide">
+        <div class="container hero-content">
+          <h1>Стильная одежда из Узбекистана для тебя!</h1>
+          <p>
+            Модная одежда высокого качества по доступным ценам. У нас вы найдете
+            все, что нужно для создания неповторимого образа.
+          </p>
+          <a href="#popular" class="btn">Смотреть каталог</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Популярные товары -->
+    <section id="popular" class="products popular">
+      <div class="container">
+        <h2>Популярные товары</h2>
+        <div class="products-grid">
+          <!-- Товар 1 -->
+          <div class="product-card">
+            <img
+              src="img/product1.webp"
+              loading="lazy"
+              width="300"
+              height="400"
+              alt="Платье летнее, розовое"
+            />
+            <h3>Платье летнее</h3>
+            <p class="price">3 500 сум</p>
+            <p class="sizes">Размеры: S, M, L</p>
+            <a href="#" class="btn">Купить</a>
+          </div>
+          <!-- Товар 2 -->
+          <div class="product-card">
+            <img
+              src="img/product2.webp"
+              loading="lazy"
+              width="300"
+              height="400"
+              alt="Мужская рубашка классическая"
+            />
+            <h3>Мужская рубашка</h3>
+            <p class="price">4 200 сум</p>
+            <p class="sizes">Размеры: M, L, XL</p>
+            <a href="#" class="btn">Купить</a>
+          </div>
+          <!-- Товар 3 -->
+          <div class="product-card">
+            <img
+              src="img/product3.webp"
+              loading="lazy"
+              width="300"
+              height="400"
+              alt="Джинсы узкие"
+            />
+            <h3>Джинсы узкие</h3>
+            <p class="price">5 000 сум</p>
+            <p class="sizes">Размеры: 28-36</p>
+            <a href="#" class="btn">Купить</a>
+          </div>
+          <!-- Товар 4 -->
+          <div class="product-card">
+            <img
+              src="img/product4.webp"
+              loading="lazy"
+              width="300"
+              height="400"
+              alt="Куртка осенняя"
+            />
+            <h3>Куртка осенняя</h3>
+            <p class="price">7 800 сум</p>
+            <p class="sizes">Размеры: S, M, L, XL</p>
+            <a href="#" class="btn">Купить</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Новинки -->
+    <section id="new" class="products new">
+      <div class="container">
+        <h2>Новинки</h2>
+        <div class="products-grid">
+          <!-- Новинка 1 -->
+          <div class="product-card">
+            <img
+              src="img/new1.webp"
+              loading="lazy"
+              width="300"
+              height="400"
+              alt="Блузка с принтом"
+            />
+            <h3>Блузка с принтом</h3>
+            <p class="price">3 900 сум</p>
+            <p class="sizes">Размеры: S, M, L</p>
+            <a href="#" class="btn">Купить</a>
+          </div>
+          <!-- Новинка 2 -->
+          <div class="product-card">
+            <img
+              src="img/new2.webp"
+              loading="lazy"
+              width="300"
+              height="400"
+              alt="Юбка-миди"
+            />
+            <h3>Юбка-миди</h3>
+            <p class="price">4 500 сум</p>
+            <p class="sizes">Размеры: S, M, L</p>
+            <a href="#" class="btn">Купить</a>
+          </div>
+          <!-- Новинка 3 -->
+          <div class="product-card">
+            <img
+              src="img/new3.webp"
+              loading="lazy"
+              width="300"
+              height="400"
+              alt="Футболка принт"
+            />
+            <h3>Футболка принт</h3>
+            <p class="price">2 800 сум</p>
+            <p class="sizes">Размеры: S, M, L, XL</p>
+            <a href="#" class="btn">Купить</a>
+          </div>
+          <!-- Новинка 4 -->
+          <div class="product-card">
+            <img
+              src="img/new4.webp"
+              loading="lazy"
+              width="300"
+              height="400"
+              alt="Спортивный костюм"
+            />
+            <h3>Спортивный костюм</h3>
+            <p class="price">6 200 сум</p>
+            <p class="sizes">Размеры: M, L, XL</p>
+            <a href="#" class="btn">Купить</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- О нас -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>О нас</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Магазин Clothencio был основан с целью предлагать качественную и
+              стильную одежду из Узбекистана по доступным ценам. Наша миссия –
+              помочь вам создать уникальный образ, подчеркивающий вашу
+              индивидуальность.
+            </p>
+            <p>
+              Мы работаем только с проверенными брендами и предлагаем широкий
+              ассортимент товаров для мужчин, женщин и детей. Качество, мода и
+              отличный сервис – наши главные преимущества!
+            </p>
+          </div>
+          <!-- <div class="about-image">
+            <img
+              src="img/about-team.webp"
+              loading="lazy"
+              width="500"
+              height="400"
+              alt="Команда Clothencio"
+            />
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Контакты</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <p><strong>Адрес:</strong> ул. Петрова, 12, Ташкент, Узбекистан</p>
+            <p>
+              <strong>Телефон:</strong>
+              <a href="tel:+998901234567">+998 90 123-45-67</a>
+            </p>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:info@clothencio.uz">info@clothencio.uz</a>
+            </p>
+            <!-- Карта Google Maps -->
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19811.123456789012!2d69.2400733!3d41.299495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0000000001%3A0x1234567890abcdef!2sTashkent%2C%20Uzbekistan!5e0!3m2!1sru!2suz!4v1580000000000"
+                width="100%"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                title="Местоположение Clothencio"
+              ></iframe>
+            </div>
+          </div>
+          <form action="#" method="post" class="contact-form">
+            <input type="text" name="name" placeholder="Имя" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea
+              name="message"
+              placeholder="Сообщение"
+              required
+            ></textarea>
+            <button type="submit" class="btn">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <p>&copy; 2023 Clothencio. Все права защищены.</p>
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#hero">Главная</a></li>
+            <li><a href="#popular">Популярные товары</a></li>
+            <li><a href="#new">Новинки</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </nav>
+        <a href="#header" class="btn up-button">Вверх</a>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
